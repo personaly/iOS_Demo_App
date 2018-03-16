@@ -1,0 +1,12 @@
+framework module Personaly {
+
+    umbrella header "Personaly.h"
+
+    export *
+    module * {export *}
+}
+
+module Personaly.Swift {
+    header "Personaly-Swift.h"
+    requires objc
+}
